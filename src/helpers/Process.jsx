@@ -7,21 +7,25 @@ export const ProcessList = [
     {
         img: User,
         title: "Signup for Service",
-        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid"
+        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid",
+        number: "1"
     },
     {
         img: Bar,
         title: "Research & Development",
-        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid"
+        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid",
+        number: "2"
     },
     {
         img: Shopping,
         title: "Sales & Earning",
-        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid"
+        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid",
+        number: "3"
     },
     {
         img: Briefcase,
         title: "Transfer Funds to Bank",
-        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid"
+        desc: "Ovitae purus soda duis eu ers auctor augue ultrici cing elit, sed do eius emod tempor incid",
+        number: "4"
     }
 ]

@@ -4,6 +4,7 @@ import About from "../assets/img/about.jpg";
 import Feature from "../assets/img/feature.png";
 import FeatureSP from "../assets/img/feature-sp.png";
 import Faq from "../assets/img/faq.png";
+import Team from "../assets/img/team.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePen, faPlay, faPlus } from '@fortawesome/free-solid-svg-icons'
 import { BrandList } from "../helpers/Brands"
@@ -316,6 +317,17 @@ function Home() {
                                             </React.Fragment>
                                         );
                                     })}
+                                    <div className="process-number">
+                                        <span className='process-num-light'>
+                                            {ProcessList.map((ProcessItem, key) => {
+                                                return (
+                                                    <React.Fragment key={key}>
+                                                        {key === 0 && <p className='process-num'>{ProcessItem.number}</p>}
+                                                    </React.Fragment>
+                                                );
+                                            })}
+                                        </span>
+                                    </div>
                                 </div>
                             </article>
                             <article className='process-item'>
@@ -343,6 +355,17 @@ function Home() {
                                             </React.Fragment>
                                         );
                                     })}
+                                    <div className="process-number">
+                                        <span className='process-num-light'>
+                                            {ProcessList.map((ProcessItem, key) => {
+                                                return (
+                                                    <React.Fragment key={key}>
+                                                        {key === 1 && <p className='process-num'>{ProcessItem.number}</p>}
+                                                    </React.Fragment>
+                                                );
+                                            })}
+                                        </span>
+                                    </div>
                                 </div>
                             </article>
                             <article className='process-item'>
@@ -370,6 +393,17 @@ function Home() {
                                             </React.Fragment>
                                         );
                                     })}
+                                    <div className="process-number">
+                                        <span className='process-num-light'>
+                                            {ProcessList.map((ProcessItem, key) => {
+                                                return (
+                                                    <React.Fragment key={key}>
+                                                        {key === 2 && <p className='process-num'>{ProcessItem.number}</p>}
+                                                    </React.Fragment>
+                                                );
+                                            })}
+                                        </span>
+                                    </div>
                                 </div>
                             </article>
                             <article className='process-item'>
@@ -397,19 +431,38 @@ function Home() {
                                             </React.Fragment>
                                         );
                                     })}
+                                    <div className="process-number">
+                                        <span className='process-num-light'>
+                                            {ProcessList.map((ProcessItem, key) => {
+                                                return (
+                                                    <React.Fragment key={key}>
+                                                        {key === 3 && <p className='process-num'>{ProcessItem.number}</p>}
+                                                    </React.Fragment>
+                                                );
+                                            })}
+                                        </span>
+                                    </div>
                                 </div>
                             </article>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className='page never bg-light'>
+            <section className='page bg-light'>
                 <div className="container">
-                    <div className="page-inner never-inner">
+                    <div className="never-inner">
                         <div className="page-text">
                             <h2 className='page-title'>Testimonial</h2>
                             <p className='page-desc'>What People Say</p>
                             <span className='page-muted'>Bole nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conididunt ut labore et dolore magna aliqua ut enim ad minim veniam</span>
+                        </div>
+                        <div className="team">
+                            <div className="team-img">
+                                <img src={Team} alt="" />
+                            </div>
+                            <div className="team-carousel">
+                                <p>MLİSÖİLVÖSALVSA</p>
+                            </div>
                         </div>
                     </div>
                 </div>

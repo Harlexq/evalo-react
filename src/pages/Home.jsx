@@ -297,7 +297,7 @@ function Home() {
                                     {ProcessList.map((ProcessItem, key) => {
                                         return (
                                             <React.Fragment key={key}>
-                                                {key === 0 && <img src={ProcessItem.img} />}
+                                                {key === 0 && <img src={ProcessItem.img} alt="" />}
                                             </React.Fragment>
                                         );
                                     })}
@@ -335,7 +335,7 @@ function Home() {
                                     {ProcessList.map((ProcessItem, key) => {
                                         return (
                                             <React.Fragment key={key}>
-                                                {key === 1 && <img src={ProcessItem.img} />}
+                                                {key === 1 && <img src={ProcessItem.img} alt="" />}
                                             </React.Fragment>
                                         );
                                     })}
@@ -373,7 +373,7 @@ function Home() {
                                     {ProcessList.map((ProcessItem, key) => {
                                         return (
                                             <React.Fragment key={key}>
-                                                {key === 2 && <img src={ProcessItem.img} />}
+                                                {key === 2 && <img src={ProcessItem.img} alt="" />}
                                             </React.Fragment>
                                         );
                                     })}
@@ -411,7 +411,7 @@ function Home() {
                                     {ProcessList.map((ProcessItem, key) => {
                                         return (
                                             <React.Fragment key={key}>
-                                                {key === 3 && <img src={ProcessItem.img} />}
+                                                {key === 3 && <img src={ProcessItem.img} alt="" />}
                                             </React.Fragment>
                                         );
                                     })}

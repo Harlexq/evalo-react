@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from "../assets/img/about-us.jpg";
+import About from "../assets/img/about-us.jpg";
 import { AboutList } from "../helpers/About";
 import { TeamList } from "../helpers/Team";
 import { BrandList } from "../helpers/Brands";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-function About() {
+function Service() {
     return (
         <>
             <section className='page page-p'>
@@ -24,7 +24,7 @@ function About() {
                             </div>
                         </div>
                         <div className="page-img">
-                            <img src={AboutImg} alt="" />
+                            <img src={About} alt="" />
                         </div>
                     </div>
                 </div>
@@ -323,4 +323,4 @@ function About() {
     );
 }
 
-export default About;
+export default Service;

@@ -84,6 +84,15 @@ $evenly: space-evenly;
             justify-content: center;
         }
     }
+
+    .suit {
+        .suit-inner {
+            justify-content: center !important;
+            .suit-item {
+                flex: 0 1 auto !important;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 480px) {
